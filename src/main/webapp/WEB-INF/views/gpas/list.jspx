@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_se_team11_studentprofile_domain_Gpa" items="${gpas}" z="WLHCci3yrfKTewPpZ7cW/wPRWtE=">
+        <table:table data="${gpas}" id="l_se_team11_studentprofile_domain_Gpa" path="/gpas" z="oUaNZp+m5jFtRkayx4OVNbC+Fto=">
+            <table:column id="c_se_team11_studentprofile_domain_Gpa_gradeID" property="gradeID" z="wVKFt1VB62kmi4GVY2yf/XxLrTU="/>
+            <table:column id="c_se_team11_studentprofile_domain_Gpa_student" property="student" z="TRPgcZRewlBolB/Qpqvk2kfniV0="/>
+            <table:column id="c_se_team11_studentprofile_domain_Gpa_subject" property="subject" z="fjjL8WcxUJIN0tKbQfM3QRT3NaE="/>
+            <table:column id="c_se_team11_studentprofile_domain_Gpa_semester" property="semester" z="cfwzolYibaWfSdlJ4IASuAap5ZY="/>
+            <table:column calendar="true" dateTimePattern="${gpa_schoolyear_date_format}" id="c_se_team11_studentprofile_domain_Gpa_schoolYear" property="schoolYear" z="d0Svko/nBucPb6J126/P/ZbcCjY="/>
+            <table:column id="c_se_team11_studentprofile_domain_Gpa_gpaPoint" property="gpaPoint" z="lvPVSuyfPslLS3cPw9V7vE6unEI="/>
+        </table:table>
+    </page:list>
+</div>

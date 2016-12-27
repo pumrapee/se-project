@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_se_team11_studentprofile_domain_Subject" modelAttribute="subject" path="/subjects" render="${empty dependencies}" z="rKIcchubaWHxUdPNv/o8iw3wCno=">
+        <field:input field="subjectID" id="c_se_team11_studentprofile_domain_Subject_subjectID" required="true" validationRegex="\\d{6}" z="KaaJU/Qji4M0YQMctsy8qqGWMvg="/>
+        <field:input field="subjectName" id="c_se_team11_studentprofile_domain_Subject_subjectName" required="true" z="LAVckxovMrPBlMG9t59f6Qe5MC0="/>
+        <field:input field="weight" id="c_se_team11_studentprofile_domain_Subject_weight" required="true" validationMessageCode="field_invalid_integer" z="FqT+w6iIKsSDuKmIvOu4V1u9BtU="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_se_team11_studentprofile_domain_Subject" render="${not empty dependencies}" z="0p/nFXJEB+ioTeggrR+tAMpFkio="/>
+</div>

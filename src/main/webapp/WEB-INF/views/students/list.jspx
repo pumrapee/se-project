@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_se_team11_studentprofile_domain_Student" items="${students}" z="utqB1V5FVRXdZ7hg2soUOZVioxE=">
+        <table:table data="${students}" id="l_se_team11_studentprofile_domain_Student" path="/students" z="xsnuRUn7LVc2/hduv9QY7z6mD7Y=">
+            <table:column id="c_se_team11_studentprofile_domain_Student_studentID" property="studentID" z="mIIQ4zjz3w5A2uO4NGUEJSWA0EY="/>
+            <table:column id="c_se_team11_studentprofile_domain_Student_firstName" property="firstName" z="aMaGhgZ9bzbo1IIcS9Z9CxOfbMQ="/>
+            <table:column id="c_se_team11_studentprofile_domain_Student_lastName" property="lastName" z="qCf7Q0walBFT4cIq7oCd7kylMl4="/>
+            <table:column id="c_se_team11_studentprofile_domain_Student_grade" property="grade" z="11tmB+11P/uGciTQJz5H8tSVHWM="/>
+            <table:column id="c_se_team11_studentprofile_domain_Student_numberOfActivity" property="numberOfActivity" z="HzByI2SMLyCVhQolNaMYBWeVAYs="/>
+        </table:table>
+    </page:list>
+</div>
