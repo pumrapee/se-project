@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_se_team11_studentprofile_domain_Certificate" items="${certificates}" z="axBlgFTcIsp+FJhqLuTcOebJPZc=">
+        <table:table data="${certificates}" id="l_se_team11_studentprofile_domain_Certificate" path="/certificates" z="g1RnZtYpSPbMUNqxS1UAeN3uXkg=">
+            <table:column id="c_se_team11_studentprofile_domain_Certificate_Student" property="student" z="l2M2wtZY8HC+dnZ6a6DpKGlOgWU="/>
+            <table:column id="c_se_team11_studentprofile_domain_Certificate_CertificateID" property="certificateID" z="6k1I0BJLbTTHTScx6mF8DwFJ/Fs="/>
+            <table:column id="c_se_team11_studentprofile_domain_Certificate_CertificateName" property="certificateName" z="Vd2kRkFeHj9FKeaz6/kvFxwgMj0="/>
+            <table:column id="c_se_team11_studentprofile_domain_Certificate_HistoryInActivity" property="historyInActivity" z="qD8N3yEgJEDsik4JIsrgpmdS+GI="/>
+        </table:table>
+    </page:list>
+</div>
