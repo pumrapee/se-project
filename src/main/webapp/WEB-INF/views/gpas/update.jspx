@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_se_team11_studentprofile_domain_Gpa" modelAttribute="gpa" path="/gpas" versionField="Version" z="R1s0FI6WpX8oMf0jRhCiQlDz/EY=">
+        <field:input field="gradeID" id="c_se_team11_studentprofile_domain_Gpa_gradeID" required="true" validationRegex="\\d{6}" z="NiCMT+IdCse19TtDjI7dGy5+ruc="/>
+        <field:select field="student" id="c_se_team11_studentprofile_domain_Gpa_student" itemValue="id" items="${students}" path="/students" required="true" z="ZGcvvur8Hzfg4c22QmWEiGui0aw="/>
+        <field:select field="subject" id="c_se_team11_studentprofile_domain_Gpa_subject" itemValue="id" items="${subjects}" multiple="true" path="/subjects" required="true" z="7E4UygHjubBpg01JSOrvUoU878U="/>
+        <field:select field="semester" id="c_se_team11_studentprofile_domain_Gpa_semester" items="${semesters}" path="semesters" required="true" z="Ky5vmy60X5STmu9kXsqVyTIRwmQ="/>
+        <field:datetime dateTimePattern="${gpa_schoolyear_date_format}" field="schoolYear" id="c_se_team11_studentprofile_domain_Gpa_schoolYear" required="true" z="jD2rVLzzgjZY9jVP5+qjIyFgIPo="/>
+        <field:input field="gpaPoint" id="c_se_team11_studentprofile_domain_Gpa_gpaPoint" required="true" validationMessageCode="field_invalid_number" z="7l8v4m46HePeL4uzU7CLuKM8iTY="/>
+    </form:update>
+</div>

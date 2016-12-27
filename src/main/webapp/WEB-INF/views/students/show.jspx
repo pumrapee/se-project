@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_se_team11_studentprofile_domain_Student" object="${student}" path="/students" z="7GrXYCefTZ2qpqWtJ3PjPiLyBT0=">
+        <field:display field="studentID" id="s_se_team11_studentprofile_domain_Student_studentID" object="${student}" z="u2dG5hfdLqicPiDvjScQdo5NiLU="/>
+        <field:display field="firstName" id="s_se_team11_studentprofile_domain_Student_firstName" object="${student}" z="hkW3XN6W+KqH63gV4AJAfeyVGvc="/>
+        <field:display field="lastName" id="s_se_team11_studentprofile_domain_Student_lastName" object="${student}" z="HvhYBPygCXCdZF/d9NLCH6N7kXg="/>
+        <field:display field="grade" id="s_se_team11_studentprofile_domain_Student_grade" object="${student}" z="Y73rNqWX3yuAxMFsMEGs33lS5NY="/>
+        <field:display field="numberOfActivity" id="s_se_team11_studentprofile_domain_Student_numberOfActivity" object="${student}" z="KqPLMlgOYXh1Julp9O/qnpGo1ZE="/>
+    </page:show>
+</div>

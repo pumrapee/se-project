@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="gpas/list">
+        <put-attribute name="body" value="/WEB-INF/views/gpas/list.jspx"/>
+    </definition>
+<definition extends="default" name="gpas/show">
+        <put-attribute name="body" value="/WEB-INF/views/gpas/show.jspx"/>
+    </definition>
+<definition extends="default" name="gpas/create">
+        <put-attribute name="body" value="/WEB-INF/views/gpas/create.jspx"/>
+    </definition>
+<definition extends="default" name="gpas/update">
+        <put-attribute name="body" value="/WEB-INF/views/gpas/update.jspx"/>
+    </definition>
+</tiles-definitions>

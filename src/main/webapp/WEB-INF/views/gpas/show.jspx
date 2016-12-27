@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_se_team11_studentprofile_domain_Gpa" object="${gpa}" path="/gpas" z="ctxblaWvHzE7j9gckxC8ZyCNudg=">
+        <field:display field="gradeID" id="s_se_team11_studentprofile_domain_Gpa_gradeID" object="${gpa}" z="BYqlr8ycEp3b05Ca56LABn7f4JA="/>
+        <field:display field="student" id="s_se_team11_studentprofile_domain_Gpa_student" object="${gpa}" z="j16FSLivM/3+YdTewpJGfOzqFww="/>
+        <field:display field="subject" id="s_se_team11_studentprofile_domain_Gpa_subject" object="${gpa}" z="18SqZkM4lLui+WK0GuYZkj05myE="/>
+        <field:display field="semester" id="s_se_team11_studentprofile_domain_Gpa_semester" object="${gpa}" z="uEtHHdO/gi0UD70+FkkZcAIVNFI="/>
+        <field:display calendar="true" dateTimePattern="${gpa_schoolyear_date_format}" field="schoolYear" id="s_se_team11_studentprofile_domain_Gpa_schoolYear" object="${gpa}" z="GC5DKTL6YBGgSW24HyesxRfJDNw="/>
+        <field:display field="gpaPoint" id="s_se_team11_studentprofile_domain_Gpa_gpaPoint" object="${gpa}" z="G8yhloewN392d5J8UBbz1HcaNQk="/>
+    </page:show>
+</div>
