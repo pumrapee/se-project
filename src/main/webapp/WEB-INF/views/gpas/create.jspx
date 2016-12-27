@@ -3,7 +3,7 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_se_team11_studentprofile_domain_Gpa" modelAttribute="gpa" path="/gpas" render="${empty dependencies}" z="S0vdONXef4P6B+lAcDWOdC6raFc=">
-        <field:input field="gradeID" id="c_se_team11_studentprofile_domain_Gpa_gradeID" required="true" validationRegex="\\d{6}" z="NiCMT+IdCse19TtDjI7dGy5+ruc="/>
+        <field:input field="gradeID" id="c_se_team11_studentprofile_domain_Gpa_gradeID" max="6" min="6" required="true" z="hwxsrsklOsJdoP1JZGBBoMzAyJo="/>
         <field:select field="student" id="c_se_team11_studentprofile_domain_Gpa_student" itemValue="id" items="${students}" path="/students" required="true" z="ZGcvvur8Hzfg4c22QmWEiGui0aw="/>
         <field:select field="subject" id="c_se_team11_studentprofile_domain_Gpa_subject" itemValue="id" items="${subjects}" multiple="true" path="/subjects" required="true" z="7E4UygHjubBpg01JSOrvUoU878U="/>
         <field:select field="semester" id="c_se_team11_studentprofile_domain_Gpa_semester" items="${semesters}" path="semesters" required="true" z="Ky5vmy60X5STmu9kXsqVyTIRwmQ="/>
