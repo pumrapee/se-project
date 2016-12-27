@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_se_team11_studentprofile_domain_Certificate" object="${certificate}" path="/certificates" z="L2+CQZBafL9NOA55RK3uy9kC6EI=">
+        <field:display field="student" id="s_se_team11_studentprofile_domain_Certificate_Student" object="${certificate}" z="CEUtXEH6HnczSUUljH0Y1h5Ffrk="/>
+        <field:display field="certificateID" id="s_se_team11_studentprofile_domain_Certificate_CertificateID" object="${certificate}" z="VKQ5RxQ4OQ2gaKDe05JVkmWxVMA="/>
+        <field:display field="certificateName" id="s_se_team11_studentprofile_domain_Certificate_CertificateName" object="${certificate}" z="HcL+PdRlj0z9iZ3bq+UtAtJXZ0U="/>
+        <field:display field="historyInActivity" id="s_se_team11_studentprofile_domain_Certificate_HistoryInActivity" object="${certificate}" z="cdWC2VBJS275da6POd3o9P4LHOQ="/>
+    </page:show>
+</div>

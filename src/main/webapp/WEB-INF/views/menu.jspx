@@ -15,5 +15,17 @@
             <menu:item id="i_subject_new" messageCode="global_menu_new" url="/subjects?form" z="K/cpx4U1MG0/LtXu68wamJ7ttg0="/>
             <menu:item id="i_subject_list" messageCode="global_menu_list" url="/subjects?page=1&amp;size=${empty param.size ? 10 : param.size}" z="EQd4RQgsWkj2hqqLFZF+zKoYy0I="/>
         </menu:category>
+        <menu:category id="c_certificate" z="CoWYxjrnSWt0q9RtwCXHYuGbQpM=">
+            <menu:item id="i_certificate_new" messageCode="global_menu_new" url="/certificates?form" z="8w14gDVBxS0azqi0E/VknkB+C3k="/>
+            <menu:item id="i_certificate_list" messageCode="global_menu_list" url="/certificates?page=1&amp;size=${empty param.size ? 10 : param.size}" z="qHtXMuQOlFPnM8tnzX2V5ENR6d8="/>
+        </menu:category>
+        <menu:category id="c_activity" z="NF6PmQkAyo1JgYYtjuLuGgtZu1o=">
+            <menu:item id="i_activity_new" messageCode="global_menu_new" url="/activitys?form" z="humNnazx/vh/qV9QiaaPFxfrRKQ="/>
+            <menu:item id="i_activity_list" messageCode="global_menu_list" url="/activitys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Xp5og2rY8Oyevfsbh0NHJCrRUu4="/>
+        </menu:category>
+        <menu:category id="c_historyinactivity" z="jTWrTBLGPcWUlhr0IO+x06f5toM=">
+            <menu:item id="i_historyinactivity_new" messageCode="global_menu_new" url="/historyinactivitys?form" z="sX7u1R2kwcoChTrnLKjj4ka1DBk="/>
+            <menu:item id="i_historyinactivity_list" messageCode="global_menu_list" url="/historyinactivitys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="CHe+5VGKaJAaHeR1Zb33EDtuPqE="/>
+        </menu:category>
     </menu:menu>
 </div>
