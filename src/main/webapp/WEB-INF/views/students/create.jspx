@@ -3,7 +3,7 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_se_team11_studentprofile_domain_Student" modelAttribute="student" path="/students" render="${empty dependencies}" z="hkEOdf54esCSSTLtvuhBAq6mG3M=">
-        <field:input field="studentID" id="c_se_team11_studentprofile_domain_Student_studentID" required="true" validationRegex="\\d{7}" z="cgxVX3H+/4Mj2bF8nWqru3Zsvkk="/>
+        <field:input field="studentID" id="c_se_team11_studentprofile_domain_Student_studentID" max="7" min="7" required="true" z="1OjJTYRrlgs2I1FxLvbUJtDQ6Ag="/>
         <field:input field="firstName" id="c_se_team11_studentprofile_domain_Student_firstName" required="true" z="9lUG9Pxz1suLM9RRNTPj7++e7qc="/>
         <field:input field="lastName" id="c_se_team11_studentprofile_domain_Student_lastName" required="true" z="2l7kVg1Dvaj92smfiF2vNCAgycQ="/>
         <field:select field="grade" id="c_se_team11_studentprofile_domain_Student_grade" items="${grades}" path="grades" required="true" z="a95Q3Wq78PUllBOCZSIAmtVJC5M="/>
