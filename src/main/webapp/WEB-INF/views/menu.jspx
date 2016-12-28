@@ -31,5 +31,9 @@
             <menu:item id="i_healthcarehistory_new" messageCode="global_menu_new" url="/healthcarehistorys?form" z="4ULn1nhKqv4fo9AUhbgRGhNz5qU="/>
             <menu:item id="i_healthcarehistory_list" messageCode="global_menu_list" url="/healthcarehistorys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="3iTIqvmZOSsUsX235VQju2B2LhM="/>
         </menu:category>
+        <menu:category id="c_cashier" z="CzZhz0Y4du8lJBiEcKQCZovRncs=">
+            <menu:item id="i_cashier_new" messageCode="global_menu_new" url="/cashiers?form" z="uprb9QJrGPTZfpsl7vAZOisZqVA="/>
+            <menu:item id="i_cashier_list" messageCode="global_menu_list" url="/cashiers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="v3deLAGTLGn976LfAsyBN/rBsis="/>
+        </menu:category>
     </menu:menu>
 </div>

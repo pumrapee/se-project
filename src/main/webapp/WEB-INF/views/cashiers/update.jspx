@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_se_team11_studentprofile_domain_Cashier" modelAttribute="cashier" path="/cashiers" versionField="Version" z="YNhbalg/kBemdu3xxZ7jc9tYkK0=">
+        <field:select field="stdname" id="c_se_team11_studentprofile_domain_Cashier_stdname" itemValue="id" items="${students}" path="/students" z="y+oq8VM6lOV4ib8fm+2Lk/Tb37E="/>
+        <field:select field="healhistory" id="c_se_team11_studentprofile_domain_Cashier_healhistory" itemValue="id" items="${healthcarehistorys}" multiple="true" path="/healthcarehistorys" z="dvgHAaGnJBi7ESXd6izU7CFZjOU="/>
+        <field:input field="billid" id="c_se_team11_studentprofile_domain_Cashier_billid" required="true" z="WiTmRRYz++Qyvq6G1G8Z1QDG3Js="/>
+        <field:input field="paytotal" id="c_se_team11_studentprofile_domain_Cashier_paytotal" validationMessageCode="field_invalid_number" z="/olFdNnYYgQG1O/jyy2Rj9qqiBU="/>
+        <field:checkbox field="status" id="c_se_team11_studentprofile_domain_Cashier_status" z="q7et5nS6dEuljSVNKAQh3sJx0PA="/>
+    </form:update>
+</div>

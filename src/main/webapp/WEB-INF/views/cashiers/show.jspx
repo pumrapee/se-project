@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_se_team11_studentprofile_domain_Cashier" object="${cashier}" path="/cashiers" z="qq2AelExK7LvFOBrhvjdcFwOdQU=">
+        <field:display field="stdname" id="s_se_team11_studentprofile_domain_Cashier_stdname" object="${cashier}" z="LKJEFdzfDYCPTAZ1P65tVqxN7Dw="/>
+        <field:display field="healhistory" id="s_se_team11_studentprofile_domain_Cashier_healhistory" object="${cashier}" z="JvbHQSTFCufJhvkg17OBpWDJIks="/>
+        <field:display field="billid" id="s_se_team11_studentprofile_domain_Cashier_billid" object="${cashier}" z="DtCjhiL6eipyUx9Ye/Nas40mOLo="/>
+        <field:display field="paytotal" id="s_se_team11_studentprofile_domain_Cashier_paytotal" object="${cashier}" z="iZm2NoKwysB3Lex8S6ouyGxatA0="/>
+        <field:display field="status" id="s_se_team11_studentprofile_domain_Cashier_status" object="${cashier}" z="J0eOU0yvOR6EzysRj9TVwg1/iqM="/>
+    </page:show>
+</div>

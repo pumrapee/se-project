@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_se_team11_studentprofile_domain_Cashier" items="${cashiers}" z="eHBcCWCsC93BFChQD2oauFVVmUA=">
+        <table:table data="${cashiers}" id="l_se_team11_studentprofile_domain_Cashier" path="/cashiers" z="JS8R86hrZMPAtX7KBYOLNClBEpQ=">
+            <table:column id="c_se_team11_studentprofile_domain_Cashier_stdname" property="stdname" z="NmPAnVs0Z0s/BC2Qqkn3CrDQ0aY="/>
+            <table:column id="c_se_team11_studentprofile_domain_Cashier_healhistory" property="healhistory" z="5kxwfu0nwQmmESGTi3lgarWYUig="/>
+            <table:column id="c_se_team11_studentprofile_domain_Cashier_billid" property="billid" z="UBRu1zzzzS1pnjKog3rFyzuPyyU="/>
+            <table:column id="c_se_team11_studentprofile_domain_Cashier_paytotal" property="paytotal" z="n4G+o4V5eu9cZ8X8qt8m7SwDKlI="/>
+            <table:column id="c_se_team11_studentprofile_domain_Cashier_status" property="status" z="nv7mUnN91alfkoLusT88cRaOuTw="/>
+        </table:table>
+    </page:list>
+</div>
