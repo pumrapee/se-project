@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_se_team11_studentprofile_domain_ConductPointHistory" object="${conductpointhistory}" path="/conductpointhistorys" z="d/5Ml9xH9AjDxYmyNHNe1j5qXGI=">
+        <field:display field="studentID" id="s_se_team11_studentprofile_domain_ConductPointHistory_StudentID" object="${conductpointhistory}" z="rWKBVHwydei7f2FHZM81aexcUoI="/>
+        <field:display date="true" dateTimePattern="${conductPointHistory_actiondate_date_format}" field="actionDate" id="s_se_team11_studentprofile_domain_ConductPointHistory_ActionDate" object="${conductpointhistory}" z="gHrnb6tyrBz77O6zmhlSPcIB4xM="/>
+        <field:display field="term" id="s_se_team11_studentprofile_domain_ConductPointHistory_Term" object="${conductpointhistory}" z="2EHwK58M9kmEwKep/qg4SrS9DRs="/>
+        <field:display field="history" id="s_se_team11_studentprofile_domain_ConductPointHistory_History" object="${conductpointhistory}" z="mrts1AJtKEVGV6izwM1Q0LdpqEs="/>
+        <field:display field="point" id="s_se_team11_studentprofile_domain_ConductPointHistory_Point" object="${conductpointhistory}" z="HMFZmkHTCuRCXKVlYcVjEa+0dUI="/>
+    </page:show>
+</div>

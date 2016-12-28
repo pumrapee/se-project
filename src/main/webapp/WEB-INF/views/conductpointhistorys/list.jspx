@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_se_team11_studentprofile_domain_ConductPointHistory" items="${conductpointhistorys}" z="uKTTJTQPwNUUgMptwzzmNdAwfOI=">
+        <table:table data="${conductpointhistorys}" id="l_se_team11_studentprofile_domain_ConductPointHistory" path="/conductpointhistorys" z="t+StAYEvrJz3ThIzi3DtN/WF2IA=">
+            <table:column id="c_se_team11_studentprofile_domain_ConductPointHistory_StudentID" property="studentID" z="5q57b/dkTt0iZUjPUfgKtZ6GcXw="/>
+            <table:column date="true" dateTimePattern="${conductPointHistory_actiondate_date_format}" id="c_se_team11_studentprofile_domain_ConductPointHistory_ActionDate" property="actionDate" z="1ElxKnHwwX2tWAjHzJviruQLvk4="/>
+            <table:column id="c_se_team11_studentprofile_domain_ConductPointHistory_Term" property="term" z="N6832NE4FfxOvepzNCLsMv8ZKA0="/>
+            <table:column id="c_se_team11_studentprofile_domain_ConductPointHistory_History" property="history" z="2f5V1gyIFdy8zutrON4R/yZW0hs="/>
+            <table:column id="c_se_team11_studentprofile_domain_ConductPointHistory_Point" property="point" z="qUPnlkXbhcoEhHGm1zqfPiypoXU="/>
+        </table:table>
+    </page:list>
+</div>
