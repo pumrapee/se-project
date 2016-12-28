@@ -27,5 +27,9 @@
             <menu:item id="i_historyinactivity_new" messageCode="global_menu_new" url="/historyinactivitys?form" z="sX7u1R2kwcoChTrnLKjj4ka1DBk="/>
             <menu:item id="i_historyinactivity_list" messageCode="global_menu_list" url="/historyinactivitys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="CHe+5VGKaJAaHeR1Zb33EDtuPqE="/>
         </menu:category>
+        <menu:category id="c_healthcarehistory" z="BIx0iSAOCbK73TTvOCx0WT7ABgI=">
+            <menu:item id="i_healthcarehistory_new" messageCode="global_menu_new" url="/healthcarehistorys?form" z="4ULn1nhKqv4fo9AUhbgRGhNz5qU="/>
+            <menu:item id="i_healthcarehistory_list" messageCode="global_menu_list" url="/healthcarehistorys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="3iTIqvmZOSsUsX235VQju2B2LhM="/>
+        </menu:category>
     </menu:menu>
 </div>
