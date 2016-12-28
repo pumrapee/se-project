@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_se_team11_studentprofile_domain_HealthCareHistory" object="${healthcarehistory}" path="/healthcarehistorys" z="I6ngDGLMV3VTENU3l4i8y86ry3g=">
+        <field:display field="student" id="s_se_team11_studentprofile_domain_HealthCareHistory_Student" object="${healthcarehistory}" z="9Kpn7DOJD1hjjanYhr9FNFEjlBo="/>
+        <field:display field="info" id="s_se_team11_studentprofile_domain_HealthCareHistory_Info" object="${healthcarehistory}" z="Dcq60wf3PRrwo57l8pFEuyvw6pQ="/>
+        <field:display date="true" dateTimePattern="${healthCareHistory_curedate_date_format}" field="cureDate" id="s_se_team11_studentprofile_domain_HealthCareHistory_CureDate" object="${healthcarehistory}" z="8Rl1z/AoQakX4HbrtdFbDteDkqU="/>
+    </page:show>
+</div>
