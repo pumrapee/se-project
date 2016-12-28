@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="conductpointhistorys/list">
+        <put-attribute name="body" value="/WEB-INF/views/conductpointhistorys/list.jspx"/>
+    </definition>
+<definition extends="default" name="conductpointhistorys/show">
+        <put-attribute name="body" value="/WEB-INF/views/conductpointhistorys/show.jspx"/>
+    </definition>
+<definition extends="default" name="conductpointhistorys/create">
+        <put-attribute name="body" value="/WEB-INF/views/conductpointhistorys/create.jspx"/>
+    </definition>
+<definition extends="default" name="conductpointhistorys/update">
+        <put-attribute name="body" value="/WEB-INF/views/conductpointhistorys/update.jspx"/>
+    </definition>
+</tiles-definitions>
