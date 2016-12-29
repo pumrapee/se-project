@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_se_team11_studentprofile_domain_Studentstatuscheck" object="${studentstatuscheck}" path="/studentstatuschecks" z="VwQzUFvwd/eAu9Ob/Pkgzsj5+FY=">
+        <field:display field="studentID" id="s_se_team11_studentprofile_domain_Studentstatuscheck_studentID" object="${studentstatuscheck}" z="mNwsgfennzkxE5djAyU66Kl+jiI="/>
+        <field:display field="gpaPoint" id="s_se_team11_studentprofile_domain_Studentstatuscheck_gpaPoint" object="${studentstatuscheck}" z="+ChiOElzf940wgXgmd7Rnvx/zEc="/>
+        <field:display field="paystatus" id="s_se_team11_studentprofile_domain_Studentstatuscheck_paystatus" object="${studentstatuscheck}" z="I7Fm+rsjn9b2sLPz4zsy1iBzpd4="/>
+        <field:display field="healthCareHistory" id="s_se_team11_studentprofile_domain_Studentstatuscheck_HealthCareHistory" object="${studentstatuscheck}" z="j3LQ/AcDDvsPl7PshJjAmP7iRV0="/>
+        <field:display field="historyInActivity" id="s_se_team11_studentprofile_domain_Studentstatuscheck_HistoryInActivity" object="${studentstatuscheck}" z="xJLkpzcxKh19pcWmisPwM4P5DOU="/>
+        <field:display field="status" id="s_se_team11_studentprofile_domain_Studentstatuscheck_status" object="${studentstatuscheck}" z="jpCLCkd3ttnYJDPvJiznytjUny8="/>
+    </page:show>
+</div>
