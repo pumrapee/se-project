@@ -3,8 +3,8 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_se_team11_studentprofile_domain_HistoryInActivity" modelAttribute="historyInActivity" path="/historyinactivitys" versionField="Version" z="3K4/23atDARgzhGFA1pMHYvdo2g=">
-        <field:select field="Student" id="c_se_team11_studentprofile_domain_HistoryInActivity_Student" itemValue="id" items="${students}" path="/students" z="7denoiecp3uT7OUOobB3ZWNQzn4="/>
-        <field:input field="HistoryID" id="c_se_team11_studentprofile_domain_HistoryInActivity_HistoryID" required="true" z="aeeAh05XQ3QZoVOm3LxymFSltRM="/>
-        <field:select field="Activity" id="c_se_team11_studentprofile_domain_HistoryInActivity_Activity" itemValue="id" items="${activitys}" multiple="true" path="/activitys" z="NcKCrgqzKX3W1SsXb1o73RtUWc8="/>
+        <field:select field="Student" id="c_se_team11_studentprofile_domain_HistoryInActivity_Student" itemValue="id" items="${students}" path="/students" required="true" z="6qKuDmjsKCB9jwOHOmciB4weWHI="/>
+        <field:input field="HistoryID" id="c_se_team11_studentprofile_domain_HistoryInActivity_HistoryID" max="8" min="8" required="true" z="S4VAcWcucDGvCLrcFnZYBR5qVUs="/>
+        <field:select field="Activity" id="c_se_team11_studentprofile_domain_HistoryInActivity_Activity" itemValue="id" items="${activitys}" multiple="true" path="/activitys" required="true" z="p6lGwmV9zOpc0RA8B0RMMg4kCmk="/>
     </form:update>
 </div>

@@ -3,10 +3,10 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_se_team11_studentprofile_domain_Certificate" modelAttribute="certificate" path="/certificates" render="${empty dependencies}" z="ivnImoQ+39DYnBfb8W7xpGbRjRU=">
-        <field:select field="Student" id="c_se_team11_studentprofile_domain_Certificate_Student" itemValue="id" items="${students}" path="/students" z="ANJHG78wDs04721N9XS+wlnxlko="/>
-        <field:input field="CertificateID" id="c_se_team11_studentprofile_domain_Certificate_CertificateID" required="true" z="dvf76Jgb4VzMcHv2WfX2+pbcwxs="/>
+        <field:select field="Student" id="c_se_team11_studentprofile_domain_Certificate_Student" itemValue="id" items="${students}" path="/students" required="true" z="rzBFZG/nPA3zXv7haqCryZbquxc="/>
+        <field:input field="CertificateID" id="c_se_team11_studentprofile_domain_Certificate_CertificateID" max="8" min="8" required="true" z="KWwdrbChbePq607iPzb6f2LygME="/>
         <field:input field="CertificateName" id="c_se_team11_studentprofile_domain_Certificate_CertificateName" required="true" z="TJGPzs043xD4pkj/VVXQxymIVHU="/>
-        <field:select field="HistoryInActivity" id="c_se_team11_studentprofile_domain_Certificate_HistoryInActivity" itemValue="id" items="${historyinactivitys}" path="/historyinactivitys" z="7m9owxvD6LOvDCks/+tYV68HXwo="/>
+        <field:select field="HistoryInActivity" id="c_se_team11_studentprofile_domain_Certificate_HistoryInActivity" itemValue="id" items="${historyinactivitys}" path="/historyinactivitys" required="true" z="fdRFlddDk3Vrl/UslBvaHQm83Zs="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_se_team11_studentprofile_domain_Certificate" render="${not empty dependencies}" z="PywNstRmK25/e/qmhFXFOewATh4="/>
 </div>
