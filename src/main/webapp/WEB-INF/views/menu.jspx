@@ -39,5 +39,9 @@
             <menu:item id="i_conductpointhistory_new" messageCode="global_menu_new" url="/conductpointhistorys?form" z="DlTdk+JxFPLu/h7tK2ODLuRJ1mE="/>
             <menu:item id="i_conductpointhistory_list" messageCode="global_menu_list" url="/conductpointhistorys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="HaRJPlnRkv/ANUszdyueEB+QPFA="/>
         </menu:category>
+        <menu:category id="c_studentstatuscheck" z="8Trc/tFxEUxknpuREqJ6SJATP2s=">
+            <menu:item id="i_studentstatuscheck_new" messageCode="global_menu_new" url="/studentstatuschecks?form" z="L7tK3BlvMYHd+NOcstww52u/LvY="/>
+            <menu:item id="i_studentstatuscheck_list" messageCode="global_menu_list" url="/studentstatuschecks?page=1&amp;size=${empty param.size ? 10 : param.size}" z="IXjwAHiMcOBka3SHbgTE4fMUBIc="/>
+        </menu:category>
     </menu:menu>
 </div>

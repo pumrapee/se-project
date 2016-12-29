@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_se_team11_studentprofile_domain_Studentstatuscheck" items="${studentstatuschecks}" z="GURbOberr0oxMEXSmBKtjS6Glqg=">
+        <table:table data="${studentstatuschecks}" id="l_se_team11_studentprofile_domain_Studentstatuscheck" path="/studentstatuschecks" z="zPE66CFX1AkR8D6Vp6dFskLjvUs=">
+            <table:column id="c_se_team11_studentprofile_domain_Studentstatuscheck_studentID" property="studentID" z="kawFHdI93NoezxdpL0NBi24t8EQ="/>
+            <table:column id="c_se_team11_studentprofile_domain_Studentstatuscheck_gpaPoint" property="gpaPoint" z="FrlgGwyDbEmKxxhbTSHEM6uf5/Y="/>
+            <table:column id="c_se_team11_studentprofile_domain_Studentstatuscheck_paystatus" property="paystatus" z="HFtkk+rZngwd3llvuRUuPiRzTOE="/>
+            <table:column id="c_se_team11_studentprofile_domain_Studentstatuscheck_HealthCareHistory" property="healthCareHistory" z="iMeu/rhEwmUZxAvAmurACqQi12U="/>
+            <table:column id="c_se_team11_studentprofile_domain_Studentstatuscheck_HistoryInActivity" property="historyInActivity" z="FScN4gh4alXL1iHnWGO8X7RaNwk="/>
+            <table:column id="c_se_team11_studentprofile_domain_Studentstatuscheck_status" property="status" z="ixo/QpZUg2QLHa95F8+aM6oHS4U="/>
+        </table:table>
+    </page:list>
+</div>

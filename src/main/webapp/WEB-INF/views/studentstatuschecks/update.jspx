@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_se_team11_studentprofile_domain_Studentstatuscheck" modelAttribute="studentstatuscheck" path="/studentstatuschecks" versionField="Version" z="if4Qqh4Qog6XZJ1VQnjJnALVGbk=">
+        <field:select field="studentID" id="c_se_team11_studentprofile_domain_Studentstatuscheck_studentID" itemValue="id" items="${students}" path="/students" z="2t2M+5EFN0hspvs2SwsMiRlFIgU="/>
+        <field:select field="gpaPoint" id="c_se_team11_studentprofile_domain_Studentstatuscheck_gpaPoint" itemValue="id" items="${gpas}" path="/gpas" z="MqkxZgVkZEBmbOUMgrdCBy3KJkQ="/>
+        <field:select field="paystatus" id="c_se_team11_studentprofile_domain_Studentstatuscheck_paystatus" itemValue="id" items="${cashiers}" path="/cashiers" z="BKJheuX9K/3zQGydjI9S4ru85E0="/>
+        <field:select field="HealthCareHistory" id="c_se_team11_studentprofile_domain_Studentstatuscheck_HealthCareHistory" itemValue="id" items="${healthcarehistorys}" path="/healthcarehistorys" z="pmNSZLLQLyz6ekJhQ20Fhz3b0nQ="/>
+        <field:select field="HistoryInActivity" id="c_se_team11_studentprofile_domain_Studentstatuscheck_HistoryInActivity" itemValue="id" items="${historyinactivitys}" path="/historyinactivitys" z="ei48mxL+xPdYsXPyCfT5jUK+bWk="/>
+        <field:input field="status" id="c_se_team11_studentprofile_domain_Studentstatuscheck_status" required="true" z="sFXfGhtEimG8Iwc99MqtIOqX3t0="/>
+    </form:update>
+</div>
