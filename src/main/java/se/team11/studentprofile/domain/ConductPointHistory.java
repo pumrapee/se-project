@@ -8,6 +8,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import org.springframework.format.annotation.DateTimeFormat;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 @RooJavaBean
 @RooToString
@@ -16,11 +17,13 @@ public class ConductPointHistory {
 
     /**
      */
+    @NotNull
     @ManyToOne
     private Student StudentID;
 
     /**
      */
+    @NotNull
     @Temporal(TemporalType.TIMESTAMP)
     @DateTimeFormat(style = "M-")
     private Date ActionDate;
@@ -28,14 +31,17 @@ public class ConductPointHistory {
     /**
      */
     @NotNull
+    @Size(min = 6, max = 6)
     private String Term;
 
     /**
      */
     @NotNull
+    @Size(min = 5,max = 1000)
     private String History;
 
     /**
      */
+    @NotNull
     private Float Point;
 }
