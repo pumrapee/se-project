@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>B5716227 Fail Test Case (New Student)</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">B5716227 Fail Test Case (New Student)</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/studentprofile/healthcarehistorys</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create new Health Care History</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;Create new Student&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=_studentID_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_studentID_id</td>
+	<td>5700001</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=_firstName_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_firstName_id</td>
+	<td>Manee</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=_lastName_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_lastName_id</td>
+	<td>Meetung</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=_numberOfActivity_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_numberOfActivity_id</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=proceed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create new Health Care History</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_Info_id</td>
+	<td>Non</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=_CureDate_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//table[@id='_CureDate_id_popup']/tbody/tr[6]/td/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=proceed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=_Info_error_id</td>
+	<td>size must be between 4 and 1000</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
