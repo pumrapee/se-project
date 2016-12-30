@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>2 B5702305 Fail Test Case 1 - Certificate ID not 8</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">2 B5702305 Fail Test Case 1 - Certificate ID not 8</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/studentprofile/students?form</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=_studentID_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_studentID_id</td>
+	<td>0987653</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_firstName_id</td>
+	<td>John</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_lastName_id</td>
+	<td>Money</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_grade_id</td>
+	<td>GRADE_8</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_numberOfActivity_id</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=proceed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create new Activity</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=_ActivityID_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_ActivityID_id</td>
+	<td>A23456</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_ActivityName_id</td>
+	<td>ค่ายสิ่งแวดล้อม ปี 2559</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=proceed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create new History In Activity</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=_Student_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_Student_id</td>
+	<td>0987653 John Money 10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_HistoryID_id</td>
+	<td>H0987653</td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>id=_Activity_id</td>
+	<td>label=A23456 ค่ายสิ่งแวดล้อม ปี 2559</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=proceed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create new Certificate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=_Student_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_Student_id</td>
+	<td>0987653 John Money 10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_CertificateID_id</td>
+	<td>C098765</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_CertificateName_id</td>
+	<td>เกียรติบัตรการทำกิจกรรมอันดับ 1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_HistoryInActivity_id</td>
+	<td>H0987653</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=proceed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=_CertificateID_error_id</td>
+	<td>size must be between 8 and 8</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
