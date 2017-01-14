@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_se_team11_studentprofile_domain_Gpax" items="${gpaxes}" z="NtmYhkM6jkVO7D0zJh5y+U1Rs38=">
+        <table:table data="${gpaxes}" id="l_se_team11_studentprofile_domain_Gpax" path="/gpaxes" z="fPBPdD3IY4avoEEL/U5Cl41yWck=">
+            <table:column id="c_se_team11_studentprofile_domain_Gpax_gpaxID" property="gpaxID" z="X5Zu79n+5R/cyBiMKO0NAAMR54A="/>
+            <table:column id="c_se_team11_studentprofile_domain_Gpax_gpa" property="gpa" z="kPIRHz1d34NxxwCXcsSPpWk4EsI="/>
+            <table:column id="c_se_team11_studentprofile_domain_Gpax_gpaxPoint" property="gpaxPoint" z="NSWuwLnnAAN9cCv8j8YFGH15MDY="/>
+        </table:table>
+    </page:list>
+</div>

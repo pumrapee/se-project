@@ -43,5 +43,9 @@
             <menu:item id="i_studentstatuscheck_new" messageCode="global_menu_new" url="/studentstatuschecks?form" z="L7tK3BlvMYHd+NOcstww52u/LvY="/>
             <menu:item id="i_studentstatuscheck_list" messageCode="global_menu_list" url="/studentstatuschecks?page=1&amp;size=${empty param.size ? 10 : param.size}" z="IXjwAHiMcOBka3SHbgTE4fMUBIc="/>
         </menu:category>
+        <menu:category id="c_gpax" z="DX3ST46BH0wllPbEJ6RB7V2l5kY=">
+            <menu:item id="i_gpax_new" messageCode="global_menu_new" url="/gpaxes?form" z="RnMBtRsAPi3WKmFweWZAuZndoNw="/>
+            <menu:item id="i_gpax_list" messageCode="global_menu_list" url="/gpaxes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="l9p0iflq7FwKDW5KPER7GVy/EeE="/>
+        </menu:category>
     </menu:menu>
 </div>

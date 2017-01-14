@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_se_team11_studentprofile_domain_Gpax" modelAttribute="gpax" path="/gpaxes" render="${empty dependencies}" z="+VDuEYg/u/0/A46MEUpswt6yp7k=">
+        <field:input field="gpaxID" id="c_se_team11_studentprofile_domain_Gpax_gpaxID" max="6" min="6" required="true" z="irCjpTifYli2KcVbdrQ2x4e7eUQ="/>
+        <field:select field="gpa" id="c_se_team11_studentprofile_domain_Gpax_gpa" itemValue="id" items="${gpas}" multiple="true" path="/gpas" required="true" z="mXkZaX9+BFRzqIVfI0O0XHD1P2k="/>
+        <field:input field="gpaxPoint" id="c_se_team11_studentprofile_domain_Gpax_gpaxPoint" required="true" validationMessageCode="field_invalid_number" z="wU76ripXrsQbubRn4Nu25EP16nA="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_se_team11_studentprofile_domain_Gpax" render="${not empty dependencies}" z="cGlbzi0fZkiuKRSs86XlWuF+5CM="/>
+</div>
