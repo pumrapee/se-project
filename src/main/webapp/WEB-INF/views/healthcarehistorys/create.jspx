@@ -4,7 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_se_team11_studentprofile_domain_HealthCareHistory" modelAttribute="healthCareHistory" path="/healthcarehistorys" render="${empty dependencies}" z="2vMVEKzeEuDGxj4FIFloAl66e4Y=">
         <field:select field="Student" id="c_se_team11_studentprofile_domain_HealthCareHistory_Student" itemValue="id" items="${students}" path="/students" required="true" z="1vdLwXDXMGW1snUpB3eL0mbcQnQ="/>
-        <field:input field="Info" id="c_se_team11_studentprofile_domain_HealthCareHistory_Info" required="true" z="EJVQgO4VIFS/hGyteUS+1Et/FuE="/>
+        <field:textarea field="Info" id="c_se_team11_studentprofile_domain_HealthCareHistory_Info" required="true" z="3oAm3PNgZksLcW+tqSv4CGKR58Q="/>
         <field:datetime dateTimePattern="${healthCareHistory_curedate_date_format}" field="CureDate" id="c_se_team11_studentprofile_domain_HealthCareHistory_CureDate" required="true" z="uE7SEEx5JQyCavUUq7+qvAYFmVs="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_se_team11_studentprofile_domain_HealthCareHistory" render="${not empty dependencies}" z="aHWyZhKxlOuXOEqdcUmVkhgjE7E="/>

@@ -3,10 +3,10 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_se_team11_studentprofile_domain_ConductPointHistory" modelAttribute="conductPointHistory" path="/conductpointhistorys" versionField="Version" z="F4TvJveYWhClkfT4wy6cnLxtohY=">
-        <field:select field="StudentID" id="c_se_team11_studentprofile_domain_ConductPointHistory_StudentID" itemValue="id" items="${students}" path="/students" z="EQrO6KAvi/OSJsP2H49Eg9IOONc="/>
-        <field:datetime dateTimePattern="${conductPointHistory_actiondate_date_format}" field="ActionDate" id="c_se_team11_studentprofile_domain_ConductPointHistory_ActionDate" z="w51GEBE8TvRCpePGJRks/tb8w1Q="/>
-        <field:input field="Term" id="c_se_team11_studentprofile_domain_ConductPointHistory_Term" required="true" z="WxpoxlZjv0l6iHo7YahiiJkFaog="/>
-        <field:input field="History" id="c_se_team11_studentprofile_domain_ConductPointHistory_History" required="true" z="w2MekbbVMRqEnd4p5sonTIbb5UM="/>
-        <field:input field="Point" id="c_se_team11_studentprofile_domain_ConductPointHistory_Point" validationMessageCode="field_invalid_number" z="h+0ufQgSByOfkr0Bg995aQo/UkE="/>
+        <field:select field="StudentID" id="c_se_team11_studentprofile_domain_ConductPointHistory_StudentID" itemValue="id" items="${students}" path="/students" required="true" z="lVXbUBFVzJ8nS0woB6/6yrpzqZ4="/>
+        <field:datetime dateTimePattern="${conductPointHistory_actiondate_date_format}" field="ActionDate" id="c_se_team11_studentprofile_domain_ConductPointHistory_ActionDate" required="true" z="JyshvvhBNHkcrca6Xs4IjCuLx3E="/>
+        <field:input field="Term" id="c_se_team11_studentprofile_domain_ConductPointHistory_Term" max="6" min="6" required="true" z="E9SaKvn52mS+y/ei0+/Wmq8G6eo="/>
+        <field:textarea field="History" id="c_se_team11_studentprofile_domain_ConductPointHistory_History" required="true" z="4cKGCd7vqvzXVBVTA4yCKlqccf4="/>
+        <field:input field="Point" id="c_se_team11_studentprofile_domain_ConductPointHistory_Point" required="true" validationMessageCode="field_invalid_number" z="oUa8wGUxPTOVXSbiWyu/AAmQeuc="/>
     </form:update>
 </div>
