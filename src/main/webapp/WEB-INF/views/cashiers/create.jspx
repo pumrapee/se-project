@@ -5,8 +5,8 @@
     <form:create id="fc_se_team11_studentprofile_domain_Cashier" modelAttribute="cashier" path="/cashiers" render="${empty dependencies}" z="DjLmLhXtky6+Hr10kAIQuqfez34=">
         <field:select field="stdname" id="c_se_team11_studentprofile_domain_Cashier_stdname" itemValue="id" items="${students}" path="/students" z="y+oq8VM6lOV4ib8fm+2Lk/Tb37E="/>
         <field:select field="healhistory" id="c_se_team11_studentprofile_domain_Cashier_healhistory" itemValue="id" items="${healthcarehistorys}" multiple="true" path="/healthcarehistorys" z="dvgHAaGnJBi7ESXd6izU7CFZjOU="/>
-        <field:input field="billid" id="c_se_team11_studentprofile_domain_Cashier_billid" required="true" z="WiTmRRYz++Qyvq6G1G8Z1QDG3Js="/>
-        <field:input field="paytotal" id="c_se_team11_studentprofile_domain_Cashier_paytotal" validationMessageCode="field_invalid_number" z="/olFdNnYYgQG1O/jyy2Rj9qqiBU="/>
+        <field:input field="billid" id="c_se_team11_studentprofile_domain_Cashier_billid" max="5" min="5" required="true" z="Awm61k/p9mr/7asPoMun+Mt5AhE="/>
+        <field:input field="paytotal" id="c_se_team11_studentprofile_domain_Cashier_paytotal" required="true" validationMessageCode="field_invalid_number" z="ZoARHXKWRP3utzbSYcO/ACui1iQ="/>
         <field:checkbox field="status" id="c_se_team11_studentprofile_domain_Cashier_status" z="q7et5nS6dEuljSVNKAQh3sJx0PA="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_se_team11_studentprofile_domain_Cashier" render="${not empty dependencies}" z="OuEy7752zSNpuP0AFdCjB587occ="/>
