@@ -4,6 +4,7 @@ import org.springframework.roo.addon.jpa.activerecord.RooJpaActiveRecord;
 import org.springframework.roo.addon.tostring.RooToString;
 import javax.persistence.ManyToOne;
 import javax.validation.constraints.Size;
+import javax.validation.constraints.NotNull;
 
 @RooJavaBean
 @RooToString
@@ -17,6 +18,7 @@ public class Fixstudentstatus {
 
     /**
      */
+    @NotNull
     @Size(min = 2, max = 500)
     private String fixstatusinfo;
 }
