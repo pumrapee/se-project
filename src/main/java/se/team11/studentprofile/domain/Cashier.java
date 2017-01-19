@@ -22,7 +22,7 @@ public class Cashier {
 
     /**
      */
-    @ManyToMany(cascade = CascadeType.ALL)
+    @ManyToMany
     private Set<HealthCareHistory> healhistory = new HashSet<HealthCareHistory>();
 
     /**
