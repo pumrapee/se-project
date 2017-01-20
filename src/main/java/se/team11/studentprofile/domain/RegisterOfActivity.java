@@ -5,6 +5,7 @@ import org.springframework.roo.addon.tostring.RooToString;
 import javax.persistence.ManyToOne;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import javax.persistence.Column;
 
 @RooJavaBean
 @RooToString
@@ -20,6 +21,7 @@ public class RegisterOfActivity {
     /**
      */
     @NotNull
+    @Column(unique = true)
     @Size(min = 11, max = 11)
     private String RegisterOfActivityID;
 
