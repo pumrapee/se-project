@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_se_team11_studentprofile_domain_Breakage" object="${breakage}" path="/breakages" z="NVTyLhEur0x577i//4edS27+AqA=">
+        <field:display field="stdname" id="s_se_team11_studentprofile_domain_Breakage_stdname" object="${breakage}" z="g0zzG+OIw4pL/uahwe8NA3ETWaA="/>
+        <field:display field="list" id="s_se_team11_studentprofile_domain_Breakage_list" object="${breakage}" z="6yk7NsD4R/153glswXPg8rXy538="/>
+        <field:display field="price" id="s_se_team11_studentprofile_domain_Breakage_price" object="${breakage}" z="A/spLA3Z4j8Cb5ozX8HwZl0hjdM="/>
+        <field:display field="status" id="s_se_team11_studentprofile_domain_Breakage_status" object="${breakage}" z="oWwyXpDJgFeuc7WFOlqyYKNDEw0="/>
+    </page:show>
+</div>

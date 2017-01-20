@@ -13,4 +13,7 @@
 <definition extends="default" name="gpas/update">
         <put-attribute name="body" value="/WEB-INF/views/gpas/update.jspx"/>
     </definition>
+<definition extends="default" name="gpas/findGpasByStudent">
+        <put-attribute name="body" value="/WEB-INF/views/gpas/findGpasByStudent.jspx"/>
+    </definition>
 </tiles-definitions>

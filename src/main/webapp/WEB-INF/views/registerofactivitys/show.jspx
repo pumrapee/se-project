@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_se_team11_studentprofile_domain_RegisterOfActivity" object="${registerofactivity}" path="/registerofactivitys" z="VgVjV0XlQ1HkLTtkG+cemChJB1o=">
+        <field:display field="student" id="s_se_team11_studentprofile_domain_RegisterOfActivity_Student" object="${registerofactivity}" z="IjR0+/xSQI/M0oX1Ce/CHMH7gVM="/>
+        <field:display field="registerOfActivityID" id="s_se_team11_studentprofile_domain_RegisterOfActivity_RegisterOfActivityID" object="${registerofactivity}" z="CIyj4QgUZ0vZW54pWGgOjSZTCv8="/>
+        <field:display field="announcementOfActivity" id="s_se_team11_studentprofile_domain_RegisterOfActivity_AnnouncementOfActivity" object="${registerofactivity}" z="M9AtRxxNcI0uTh2NeEFyFVaFgCM="/>
+        <field:display field="status" id="s_se_team11_studentprofile_domain_RegisterOfActivity_Status" object="${registerofactivity}" z="bpMbY0noT4LgxarWp/l7MTp69dI="/>
+    </page:show>
+</div>

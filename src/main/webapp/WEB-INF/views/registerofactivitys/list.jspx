@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_se_team11_studentprofile_domain_RegisterOfActivity" items="${registerofactivitys}" z="A1bBRm8UOmPCTjQZ3kZrRjlnZHc=">
+        <table:table data="${registerofactivitys}" id="l_se_team11_studentprofile_domain_RegisterOfActivity" path="/registerofactivitys" z="9XgtN+ELhslHxDHMU7s+f1qh738=">
+            <table:column id="c_se_team11_studentprofile_domain_RegisterOfActivity_Student" property="student" z="HAuYnA4p3rnTgETD57YftHjvKy4="/>
+            <table:column id="c_se_team11_studentprofile_domain_RegisterOfActivity_RegisterOfActivityID" property="registerOfActivityID" z="wmsWpuvEOYfcVmmuIhE78bLCt2Y="/>
+            <table:column id="c_se_team11_studentprofile_domain_RegisterOfActivity_AnnouncementOfActivity" property="announcementOfActivity" z="RDjsG2Ax9A+J6u6EZ6nCUPLETKQ="/>
+            <table:column id="c_se_team11_studentprofile_domain_RegisterOfActivity_Status" property="status" z="z90G5ZkdK7quqJWfIwWy2rvqEMM="/>
+        </table:table>
+    </page:list>
+</div>

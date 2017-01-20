@@ -8,7 +8,7 @@
         <field:select field="paystatus" id="c_se_team11_studentprofile_domain_Studentstatuscheck_paystatus" itemValue="id" items="${cashiers}" path="/cashiers" z="BKJheuX9K/3zQGydjI9S4ru85E0="/>
         <field:select field="HealthCareHistory" id="c_se_team11_studentprofile_domain_Studentstatuscheck_HealthCareHistory" itemValue="id" items="${healthcarehistorys}" path="/healthcarehistorys" z="pmNSZLLQLyz6ekJhQ20Fhz3b0nQ="/>
         <field:select field="HistoryInActivity" id="c_se_team11_studentprofile_domain_Studentstatuscheck_HistoryInActivity" itemValue="id" items="${historyinactivitys}" path="/historyinactivitys" z="ei48mxL+xPdYsXPyCfT5jUK+bWk="/>
-        <field:input field="status" id="c_se_team11_studentprofile_domain_Studentstatuscheck_status" required="true" z="sFXfGhtEimG8Iwc99MqtIOqX3t0="/>
+        <field:input field="status" id="c_se_team11_studentprofile_domain_Studentstatuscheck_status" max="10" min="2" required="true" z="hUymeCLFahfSmt0zDnLYYD3NbfI="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_se_team11_studentprofile_domain_Studentstatuscheck" render="${not empty dependencies}" z="9mHctc1F+RtHqpdpz4Y8f+5W9LY="/>
 </div>

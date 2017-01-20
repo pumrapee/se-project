@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_se_team11_studentprofile_domain_ConductPointVerify" items="${conductpointverifys}" z="u/luM4clzXmCkwxNK0iolw/HLpA=">
+        <table:table data="${conductpointverifys}" id="l_se_team11_studentprofile_domain_ConductPointVerify" path="/conductpointverifys" z="A+Eql+B+l+ha/o740kjvHkx9oCE=">
+            <table:column id="c_se_team11_studentprofile_domain_ConductPointVerify_Student" property="student" z="gCNfI6uI+RpWJsm2C7er6tQd8HU="/>
+            <table:column id="c_se_team11_studentprofile_domain_ConductPointVerify_TotalScore" property="totalScore" z="6wm/p+5bZNV3+P3yBItNpa9qgdY="/>
+            <table:column id="c_se_team11_studentprofile_domain_ConductPointVerify_Info" property="info" z="qrW7B/Z5zrDh4xQzhXwH+NOVqJ0="/>
+            <table:column id="c_se_team11_studentprofile_domain_ConductPointVerify_status" property="status" z="qgtd+Vn4zHHRh3rgO9INN+X9G+4="/>
+        </table:table>
+    </page:list>
+</div>
