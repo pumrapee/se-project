@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_se_team11_studentprofile_domain_ConductPointVerify" modelAttribute="conductPointVerify" path="/conductpointverifys" render="${empty dependencies}" z="RN49dL1i1tc4FeYEBfiAle1x+5Y=">
+        <field:select field="Student" id="c_se_team11_studentprofile_domain_ConductPointVerify_Student" itemValue="id" items="${students}" path="/students" required="true" z="1KzDVd7e7WUx4NwyybVEIyKyGXQ="/>
+        <field:input field="TotalScore" id="c_se_team11_studentprofile_domain_ConductPointVerify_TotalScore" required="true" validationMessageCode="field_invalid_number" z="/L79KtI0RCXM2PxiiLHIVHb57+k="/>
+        <field:textarea field="Info" id="c_se_team11_studentprofile_domain_ConductPointVerify_Info" required="true" z="+vTS5tNOOecQtmI7quD6zTDHeSE="/>
+        <field:checkbox field="status" id="c_se_team11_studentprofile_domain_ConductPointVerify_status" z="ZppQGPRuCQO9UpbjQz1jXlBoBE4="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_se_team11_studentprofile_domain_ConductPointVerify" render="${not empty dependencies}" z="qIMQzrnQy9L1bIq2HMWOi+KZ9cU="/>
+</div>

@@ -6,6 +6,7 @@
         <menu:category id="c_gpa" z="isQKTXGU3qH70IpTH1tV+DJvRk8=">
             <menu:item id="i_gpa_new" messageCode="global_menu_new" url="/gpas?form" z="naB+EDqTm2qdgvFl71HcRa6TZY0="/>
             <menu:item id="i_gpa_list" messageCode="global_menu_list" url="/gpas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="MCzbe+EtYIGsSZfzOrMAqTEiaQo="/>
+            <menu:item id="fi_gpa_student" messageCode="global_menu_find" url="/gpas?find=ByStudent&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="c6Q1lmuiy+lXVcbq4wEUWsRMjBo="/>
         </menu:category>
         <menu:category id="c_student" z="VA/5j81jpINYUQQoxpb8LUYLpWk=">
             <menu:item id="i_student_new" messageCode="global_menu_new" url="/students?form" z="xCEWOyB2txSvWmV9Fxwd+H7BxCM="/>
@@ -46,6 +47,30 @@
         <menu:category id="c_gpax" z="DX3ST46BH0wllPbEJ6RB7V2l5kY=">
             <menu:item id="i_gpax_new" messageCode="global_menu_new" url="/gpaxes?form" z="RnMBtRsAPi3WKmFweWZAuZndoNw="/>
             <menu:item id="i_gpax_list" messageCode="global_menu_list" url="/gpaxes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="l9p0iflq7FwKDW5KPER7GVy/EeE="/>
+        </menu:category>
+        <menu:category id="c_breakage" z="Sl0kn9ZeJY+Tvnt1/est3iiH5mg=">
+            <menu:item id="i_breakage_new" messageCode="global_menu_new" url="/breakages?form" z="kSm5FzxkpLC8Ej/aZwHz28NdnW4="/>
+            <menu:item id="i_breakage_list" messageCode="global_menu_list" url="/breakages?page=1&amp;size=${empty param.size ? 10 : param.size}" z="sGzze7sz0tZc0LQ5otW8c2pJNLA="/>
+        </menu:category>
+        <menu:category id="c_registerofactivity" z="jUnph4etFxzx0L6VLaAxpXv524E=">
+            <menu:item id="i_registerofactivity_new" messageCode="global_menu_new" url="/registerofactivitys?form" z="TBVZCMVbGSVTVRWrf73T399bPXQ="/>
+            <menu:item id="i_registerofactivity_list" messageCode="global_menu_list" url="/registerofactivitys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="KX/H9w7xBgH7B+X1fhmvlylxces="/>
+        </menu:category>
+        <menu:category id="c_healthfee" z="Vj++fhtd0OdRgNfKjB2FY3wNjvo=">
+            <menu:item id="i_healthfee_new" messageCode="global_menu_new" url="/healthfees?form" z="pqajrPkceFNxWqYwI7QTq9kmUTU="/>
+            <menu:item id="i_healthfee_list" messageCode="global_menu_list" url="/healthfees?page=1&amp;size=${empty param.size ? 10 : param.size}" z="LuloYOht6Cv6Y4ydIiYpgrQx77A="/>
+        </menu:category>
+        <menu:category id="c_announcementofactivity" z="IZaGEpcUaVWDRfG45Poom469wNs=">
+            <menu:item id="i_announcementofactivity_new" messageCode="global_menu_new" url="/announcementofactivitys?form" z="qwwpNhdfkAFr+4Kpbui9nubWTHc="/>
+            <menu:item id="i_announcementofactivity_list" messageCode="global_menu_list" url="/announcementofactivitys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="5nyR7m1BMCWZ0Ic1CZWYOCBtMZY="/>
+        </menu:category>
+        <menu:category id="c_fixstudentstatus" z="+BXUpmH2WVSOlJEp2kTN0wM0SDg=">
+            <menu:item id="i_fixstudentstatus_new" messageCode="global_menu_new" url="/fixstudentstatuses?form" z="FySnrzRhf1aiVgL9XM6n5eOQrL0="/>
+            <menu:item id="i_fixstudentstatus_list" messageCode="global_menu_list" url="/fixstudentstatuses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="ZpPS0OHHwQqm6Y2CeuFNi+mcmY8="/>
+        </menu:category>
+        <menu:category id="c_conductpointverify" z="DAxRLo9Ru8uSYvQeTGRNDVe3LrI=">
+            <menu:item id="i_conductpointverify_new" messageCode="global_menu_new" url="/conductpointverifys?form" z="cQxKt7s6u01HOWbWryYPFM/MPMo="/>
+            <menu:item id="i_conductpointverify_list" messageCode="global_menu_list" url="/conductpointverifys?page=1&amp;size=${empty param.size ? 10 : param.size}" z="VMg2DWkVCmwfgvnhdG9oi7IRQ+c="/>
         </menu:category>
     </menu:menu>
 </div>

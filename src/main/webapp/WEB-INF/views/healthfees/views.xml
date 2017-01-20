@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="healthfees/list">
+        <put-attribute name="body" value="/WEB-INF/views/healthfees/list.jspx"/>
+    </definition>
+<definition extends="default" name="healthfees/show">
+        <put-attribute name="body" value="/WEB-INF/views/healthfees/show.jspx"/>
+    </definition>
+<definition extends="default" name="healthfees/create">
+        <put-attribute name="body" value="/WEB-INF/views/healthfees/create.jspx"/>
+    </definition>
+<definition extends="default" name="healthfees/update">
+        <put-attribute name="body" value="/WEB-INF/views/healthfees/update.jspx"/>
+    </definition>
+</tiles-definitions>

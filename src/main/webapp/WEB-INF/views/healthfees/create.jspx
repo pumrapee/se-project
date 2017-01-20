@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_se_team11_studentprofile_domain_HealthFee" modelAttribute="healthFee" path="/healthfees" render="${empty dependencies}" z="xmtiD+wBGKx14VuOp3Bh8Gc3EkY=">
+        <field:select field="Student" id="c_se_team11_studentprofile_domain_HealthFee_Student" itemValue="id" items="${students}" path="/students" required="true" z="cUtZvodfZy9Y0xMSZbNsokOF1sM="/>
+        <field:textarea field="Type" id="c_se_team11_studentprofile_domain_HealthFee_Type" required="true" z="bCy3s5oMc7KSVjp8qOcfhYPRWew="/>
+        <field:input field="FeeDiscount" id="c_se_team11_studentprofile_domain_HealthFee_FeeDiscount" required="true" validationMessageCode="field_invalid_integer" z="d3RDi0DmSFRgeVJJI65HXtLSkg8="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_se_team11_studentprofile_domain_HealthFee" render="${not empty dependencies}" z="Ye1aqFZfsnjwIX67tz2c9M6yGrs="/>
+</div>

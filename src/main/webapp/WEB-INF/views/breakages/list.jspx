@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_se_team11_studentprofile_domain_Breakage" items="${breakages}" z="h6V072A/IYCFXcsIgy6Us3pqgHU=">
+        <table:table data="${breakages}" id="l_se_team11_studentprofile_domain_Breakage" path="/breakages" z="Khz78Ljq9DAyK1ItJRIl1c7Cbnw=">
+            <table:column id="c_se_team11_studentprofile_domain_Breakage_stdname" property="stdname" z="1nLxr9kMHdi9zMAG81ILnYQ7gFI="/>
+            <table:column id="c_se_team11_studentprofile_domain_Breakage_list" property="list" z="0/D+p9HimuAg4wqVk6T1LKOn06g="/>
+            <table:column id="c_se_team11_studentprofile_domain_Breakage_price" property="price" z="tSFY4r5yKZFtGHeHxwOrxBtFdHE="/>
+            <table:column id="c_se_team11_studentprofile_domain_Breakage_status" property="status" z="mi4L7PTSCACEDrejSsmJ7C8gyjk="/>
+        </table:table>
+    </page:list>
+</div>

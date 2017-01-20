@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_se_team11_studentprofile_domain_HealthFee" items="${healthfees}" z="TrwmdyBXGgA8pjT83g14qhRs6rw=">
+        <table:table data="${healthfees}" id="l_se_team11_studentprofile_domain_HealthFee" path="/healthfees" z="DcbJ+Stql5Jhq6Bg+da2hUZBHpA=">
+            <table:column id="c_se_team11_studentprofile_domain_HealthFee_Student" property="student" z="6emfT7cXu7Dq3QF/WLtoGl+pq58="/>
+            <table:column id="c_se_team11_studentprofile_domain_HealthFee_Type" property="type" z="I5GoxO/emz/8EHXaxif8jB/77pM="/>
+            <table:column id="c_se_team11_studentprofile_domain_HealthFee_FeeDiscount" property="feeDiscount" z="LIiluQt9HNxawZPxKSZDRqocP00="/>
+        </table:table>
+    </page:list>
+</div>

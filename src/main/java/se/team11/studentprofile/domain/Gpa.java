@@ -18,7 +18,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 @RooJavaBean
 @RooToString
-@RooJpaActiveRecord
+@RooJpaActiveRecord(finders = { "findGpasByStudent" })
 public class Gpa {
 
     /**
@@ -37,7 +37,7 @@ public class Gpa {
     /**
      */
     @NotNull
-    @ManyToMany(cascade = CascadeType.ALL)
+    @ManyToMany
     private Set<Subject> subject = new HashSet<Subject>();
 
     /**

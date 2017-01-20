@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_se_team11_studentprofile_domain_Fixstudentstatus" items="${fixstudentstatuses}" z="7F/CkEHPqZSzdEtfWMcO6hutVKc=">
+        <table:table data="${fixstudentstatuses}" id="l_se_team11_studentprofile_domain_Fixstudentstatus" path="/fixstudentstatuses" z="3DHeYq89F7T9NJzNF4kAt6cWOZQ=">
+            <table:column id="c_se_team11_studentprofile_domain_Fixstudentstatus_studentstatus" property="studentstatus" z="l7eelr4WD8ufNOTma9ZPFjXfmf0="/>
+            <table:column id="c_se_team11_studentprofile_domain_Fixstudentstatus_fixstatusinfo" property="fixstatusinfo" z="8q7IvsNhtcpin/VUZ8K1WnD8Tdw="/>
+        </table:table>
+    </page:list>
+</div>

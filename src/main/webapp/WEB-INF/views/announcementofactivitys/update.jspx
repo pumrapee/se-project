@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_se_team11_studentprofile_domain_AnnouncementOfActivity" modelAttribute="announcementOfActivity" path="/announcementofactivitys" versionField="Version" z="RA2T/MdiTvj+HzG/XwKk29xa0XA=">
+        <field:input field="AnnouncementOfActivityID" id="c_se_team11_studentprofile_domain_AnnouncementOfActivity_AnnouncementOfActivityID" max="6" min="6" required="true" z="BTZj944fLqTnuBZ2up2jE6DstOI="/>
+        <field:input field="AnnouncementOfActivityName" id="c_se_team11_studentprofile_domain_AnnouncementOfActivity_AnnouncementOfActivityName" z="oNBkSG2dh5fl3uEuFZ6GxA1qqw8="/>
+        <field:input field="AnnouncementOfActivityRemain" id="c_se_team11_studentprofile_domain_AnnouncementOfActivity_AnnouncementOfActivityRemain" min="0" required="true" validationMessageCode="field_invalid_integer" z="8g6TW93gKKn+/qBxaYtCUgwkbig="/>
+    </form:update>
+</div>
