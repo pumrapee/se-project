@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8080/" />
+<title>B5716227 HealthFee Pass (New Student)</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">B5716227 HealthFee Pass (New Student)</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/studentprofile/students?form</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create new Student</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=_studentID_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_studentID_id</td>
+	<td>1234567</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=_firstName_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_firstName_id</td>
+	<td>Suriyapon</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=_lastName_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_lastName_id</td>
+	<td>Sasivimollit</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=_numberOfActivity_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_numberOfActivity_id</td>
+	<td>3</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=proceed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Create new Health Fee</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_Type_id</td>
+	<td>Normal</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=_FeeDiscount_id</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=_FeeDiscount_id</td>
+	<td>2500</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=proceed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>css=span.dijitTitlePaneTextNode</td>
+	<td>Show Health Fee</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.image</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=_title_pl_se_team11_studentprofile_domain_HealthFee_id_pane</td>
+	<td>No Health Fee found.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=List all Students</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.image</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=_title_pl_se_team11_studentprofile_domain_Student_id_pane</td>
+	<td>No Student found.</td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
