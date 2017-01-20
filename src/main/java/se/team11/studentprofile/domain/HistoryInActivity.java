@@ -33,6 +33,6 @@ public class HistoryInActivity {
     /**
      */
     @NotNull
-    @ManyToMany(cascade = CascadeType.ALL)
+    @ManyToMany
     private Set<Activity> Activity = new HashSet<Activity>();
 }
